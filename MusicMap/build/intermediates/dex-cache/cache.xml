@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.0.0_2356f46b727e8687112d1d7272ef726ae3e017fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.0.0_575402ec196665ea9900270f1be99d82f71fbd6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\usseerr\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_9b519a40c0a095ccbbd8dfc62f77b4747736bccd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_cdf7ab5bbcae876c57c7c9a95635ed2b0fc5cb44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.0.0_099de7509e4cf5216c7aa4d5da06259125145f75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_da2c4d248e2431d7569902c7b0086ac67f1dbd38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.github.moondroid.coverflow\library\1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42dd7a8aa383b6967e640be8149e11b8ada22944">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.github.moondroid.coverflow-library-1.0_032ed2290831dc707f11fa85f0fd31ab30223e33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7da84426d876216ed4cdddd85e739be5ecabdd04">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.0.0_b23e7300d086677fbf7900dfa8f783e118dfe88a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.0.0_03340a3c3c0f2a29e0810952251f84f9190c12fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_e593cb9def5390d19b6df789d4e1b6bca291b6bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_a99d4fe11a1fc880a5558aae3ae0f9a128e8a1bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_6ef37ef007d4e62cee3735854d2ea6c7a534b232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.0_1c9d19cf17279c1858fb305774c0d5740a260900.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_abc576d12dda15611f1372e9306d63d6e9a95b52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_e76d94cabfb79daaaa66f5561f3ecab308fecaed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.2.0_ba3033124367620bf6a290042b643b96b3a8172f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_32ffa39e1ec94156a3640a905b57fbb24be543e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_bfdfe8d61cd489cdbd9ce2994dbb765519f2a656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_24080c5567736d3fb5a7d6ffcdce24c135cd6195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7310d072b26bcbcdfa8103e5ae5248b259bf3e45">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e7c41e99f22d7c8486b2eaad4e75f2f11cfd2053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_9ee2151ff6d794916b9b25369162900d502843c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_aac2a3317b63423fe32864b6a6887d39774f8373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="79e4b41db41d4dbbf364c7bd6aaeee5b876c9d8b">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.0.0_24a327b03ae971a70a2f4ea17cc3f22416626007.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="048955b2b398420db989cb8d5f25d457ffdf7e38">
+        <dex dex="E:\ProiecteIndyVision\Music-Map-Rares\app\build\intermediates\pre-dexed\debug\instant-run_80dd045cc4f0a2b03425337f7c4588b2a0bdf60d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/geo_autocomplete_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/x"
+        android:layout_alignTop="@+id/geo_autocomplete"
+        android:layout_alignRight="@+id/geo_autocomplete"
+        android:layout_alignEnd="@+id/geo_autocomplete"
+        android:layout_marginTop="4dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </com.google.android.gms.ads.AdView>
+
+    <com.example.cristianbaita.MusicMap.helper.DelayAutoCompleteTextView
+        android:id="@+id/geo_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="flagNoExtractUi|actionSearch"
+        android:inputType="textCapSentences"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:hint="Type here..."
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:dropDownWidth="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map_fragment"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/geo_autocomplete_clear"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/adView" />
+
+</RelativeLayout>
