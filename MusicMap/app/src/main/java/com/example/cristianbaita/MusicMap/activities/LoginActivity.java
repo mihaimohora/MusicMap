@@ -1,8 +1,5 @@
 package com.example.cristianbaita.MusicMap.activities;
 
-import android.animation.Animator;
-import android.animation.AnimatorInflater;
-import android.animation.AnimatorSet;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -12,14 +9,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -27,13 +18,9 @@ import android.widget.Toast;
 
 import com.example.cristianbaita.MusicMap.R;
 import com.example.cristianbaita.MusicMap.animators.Animators;
-import com.example.cristianbaita.MusicMap.constants.InstagramData;
 import com.example.cristianbaita.MusicMap.helper.ImageLoader;
 import com.example.cristianbaita.MusicMap.instagram.InstagramApp;
-import com.example.cristianbaita.MusicMap.pojo.Game;
-import it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 import com.example.cristianbaita.MusicMap.pojo.GoogleLoginManager;
@@ -114,8 +101,8 @@ public class LoginActivity extends AppCompatActivity {
         logInButton = (Button) findViewById(R.id.loginButton);
 
 
-        animators.fadeInScaleInAnimation(facebookLogInImage,loginContext);
-        animators.fadeOutScaleOutAnimation(googleLogInImage,loginContext);
+        animators.fadeInScaleInAnimation(facebookLogInImage, loginContext);
+        animators.fadeOutScaleOutAnimation(googleLogInImage, loginContext);
 
         facebookTurn = true;
 
@@ -124,10 +111,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(!facebookTurn)
-                {
-                    animators.fadeInScaleInAnimation(facebookLogInImage,loginContext);
-                    animators.fadeOutScaleOutAnimation(googleLogInImage,loginContext);
+                if (!facebookTurn) {
+                    animators.fadeInScaleInAnimation(facebookLogInImage, loginContext);
+                    animators.fadeOutScaleOutAnimation(googleLogInImage, loginContext);
                     facebookTurn = !facebookTurn;
                 }
 
@@ -138,10 +124,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(facebookTurn)
-                {
-                    animators.fadeInScaleInAnimation(googleLogInImage,loginContext);
-                    animators.fadeOutScaleOutAnimation(facebookLogInImage,loginContext);
+                if (facebookTurn) {
+                    animators.fadeInScaleInAnimation(googleLogInImage, loginContext);
+                    animators.fadeOutScaleOutAnimation(facebookLogInImage, loginContext);
                     facebookTurn = !facebookTurn;
                 }
             }
@@ -154,6 +139,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
 
 
 
@@ -176,50 +162,6 @@ public class LoginActivity extends AppCompatActivity {
 
         //END GOOGLE STUFF
 
-
-//        ImageView imgLogo = (ImageView) findViewById(R.id.imageView1);
-//        imgLogo.startAnimation(animTranslate);
-
-        //INSTAGRAM
-        mApp = new InstagramApp(this, InstagramData.CLIENT_ID, InstagramData.CLIENT_SECRET, InstagramData.CALLBACK_URL);
-        mApp.setListener(new InstagramApp.OAuthAuthenticationListener() {
-
-            @Override
-            public void onSuccess() {
-
-                btnConnect.setText("Disconnect");
-                mApp.fetchUserName(handler);
-                Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
-                saveUser();
-                intent.putExtra("username", getUsername());
-                //final String user = getUsername();
-                startActivity(intent);
-            }
-
-            @Override
-            public void onFail(String error) {
-                Toast.makeText(LoginActivity.this, error, Toast.LENGTH_SHORT)
-                        .show();
-            }
-
-
-//        btnConnect = (Button) findViewById(R.id.instagrambutton);
-//        //btnConnect.setVisibility(View.GONE);
-//
-//        bindEventHandlers();
-//        if (mApp.hasAccessToken()) {
-//            btnConnect.setText("Disconnect");
-//            mApp.fetchUserName(handler);
-//        }
-//
-//        if (btnConnect != null && btnConnect.getText().toString() == "Disconnect") {
-//            Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
-//            intent.putExtra("username", getUsername());
-//            startActivity(intent);
-//        }
-//    }
-
-            //INSTAGRAM
 
             //FACEBOOK
 
@@ -376,8 +318,7 @@ public class LoginActivity extends AppCompatActivity {
             public String getUsername() {
                 return username;
             }
-        });
+        }
 
-    }}
 
 

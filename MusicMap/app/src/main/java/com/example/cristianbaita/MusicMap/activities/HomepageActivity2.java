@@ -1,8 +1,5 @@
 package com.example.cristianbaita.MusicMap.activities;
 
-/**
- * Created by Rares - Desktop on 13.09.2016.
- */
 import android.os.Bundle;
 import android.app.Activity;
 import android.text.Editable;

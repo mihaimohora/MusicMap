@@ -41,7 +41,8 @@
 
         <activity
             android:name="com.example.cristianbaita.MusicMap.activities.HomepageActivity"
-            android:label="@string/homepage_title" >
+            android:label="@string/homepage_title"
+            >
         </activity>
 
         <activity android:name="com.facebook.FacebookActivity"

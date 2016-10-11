@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +20,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.cristianbaita.MusicMap.R;
@@ -44,19 +46,13 @@ public class HomepageActivity extends AppCompatActivity implements OnMapReadyCal
     private Marker TP;
 
 
-    private String navigationDrawerElements[] = {"UNDE", "Events", "Artists' aleei", "Setting"};
-    private DrawerLayout mDrawerLayout;
-    private ListView mDrawerList;
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //getSupportActionBar().hide();
+    //    getSupportActionBar().hide();
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map_fragment);
         mapFragment.getMapAsync(this);
@@ -64,18 +60,29 @@ public class HomepageActivity extends AppCompatActivity implements OnMapReadyCal
 
 
         //Navigatin Drawer
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+        Toolbar toolbarTop = (Toolbar) findViewById(R.id.toolbar_top);
+        setSupportActionBar(toolbarTop);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-               this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+               this, drawer, toolbarTop, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this); // null pointer here
 
 /// end navigation drawer
+        // burger click
+
+        ImageView burgerImage = (ImageView) findViewById(R.id.burgerImage);
+        burgerImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawer.openDrawer(Gravity.LEFT);
+            }
+        });
+
+        // burger click
 
 
 
