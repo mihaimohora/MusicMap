@@ -21,29 +21,11 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_591c313a52b4e12aaed37ceda5d4823f2bdfec09.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_12735b34e16556a31274d702630052956c1affb6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="02f2a224ae35bac0eafcf96dc94d8193078d14f8">
+        sha1="0a8f6aaa294ca28ba6d40cfbda84bcbaaea78311">
         <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\instant-run_f077508cc014eeff525152df52081ba9e36c26d1.jar" />
     </item>
     <item
@@ -54,24 +36,6 @@
         revision="23.0.2"
         sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
         <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_9b519a40c0a095ccbbd8dfc62f77b4747736bccd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_090aa7fb0b21ed6c0906ef0b38760f54972c6565.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.0.0_38bcd167a318e290cf28e9c44f1fa1bff09377e9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -90,6 +54,60 @@
         revision="23.0.2"
         sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
         <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_ece6894b7a6139c9bcb893f72203fe46cc56ecbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_602868abeb41af6f4cb13d9aafbe8f5294b75b8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_d926b6c1ee2f2a02f1d4a4811b83631dc4d2e834.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_591c313a52b4e12aaed37ceda5d4823f2bdfec09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_12735b34e16556a31274d702630052956c1affb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_090aa7fb0b21ed6c0906ef0b38760f54972c6565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
+        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.0.0_38bcd167a318e290cf28e9c44f1fa1bff09377e9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -115,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="8ed976edfd6b60bfe2d9a797997fa313a30a1c90">
+        sha1="90f026efb79e298cd367bf32927d117ec696d438">
         <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_37887dfe1da18dac828cdd4234b1f26065e49912.jar" />
     </item>
     <item
@@ -171,24 +189,6 @@
         revision="23.0.2"
         sha1="79e4b41db41d4dbbf364c7bd6aaeee5b876c9d8b">
         <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.0.0_bc77bf8f026e4023e980f0cbb726c0f977554d22.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_602868abeb41af6f4cb13d9aafbe8f5294b75b8e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="E:\ProiecteIndyVision\MusicMap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_d926b6c1ee2f2a02f1d4a4811b83631dc4d2e834.jar" />
     </item>
     <item
         is-multidex="false"

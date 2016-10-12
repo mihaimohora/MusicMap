@@ -2,9 +2,7 @@ package com.example.cristianbaita.MusicMap.managers;
 
 import android.util.Log;
 
-/**
- * Created by cristian.baita on 3/14/2016.
- */
+
 public class Manager {
     private final static String TAG = "Main Manager";
     private static Manager instance;
