@@ -3,6 +3,7 @@ package com.example.cristianbaita.MusicMap.activities;
 /**
  * Created by Rares - Desktop on 13.09.2016.
  */
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -28,6 +29,7 @@ import com.example.cristianbaita.MusicMap.adapters.GeoAutoCompleteAdapter;
 import com.example.cristianbaita.MusicMap.helper.DelayAutoCompleteTextView;
 import com.example.cristianbaita.MusicMap.helper.GeoSearchResult;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -38,7 +40,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class HomepageActivity extends AppCompatActivity implements OnMapReadyCallback, NavigationView.OnNavigationItemSelectedListener{
+public class HomepageActivity extends AppCompatActivity implements OnMapReadyCallback, NavigationView.OnNavigationItemSelectedListener, GoogleMap.OnMarkerClickListener {
 
     private Integer THRESHOLD = 2;
     private DelayAutoCompleteTextView geo_autocomplete;
@@ -147,12 +149,17 @@ public class HomepageActivity extends AppCompatActivity implements OnMapReadyCal
     public void onMapReady(GoogleMap map) {
     //DO WHATEVER YOU WANT WITH GOOGLEMAP
         map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
-        final LatLng poz = new LatLng(21 , 57);
-        TP = map.addMarker(new MarkerOptions().position(poz).title("Yeey"));
+        final LatLng poz = new LatLng(44.432072, 26.098309);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(poz,20));
+        MarkerOptions markerOptions = new MarkerOptions().position(poz).title("Come here?");
+        TP = map.addMarker(markerOptions);
+
+
         map.setTrafficEnabled(true);
         map.setIndoorEnabled(true);
         map.setBuildingsEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
+        map.setOnMarkerClickListener(this);
     }
 
 
@@ -213,5 +220,11 @@ public class HomepageActivity extends AppCompatActivity implements OnMapReadyCal
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+        startActivity(new Intent(this, LocationDetailsActivity.class));
+        return false;
     }
 }
